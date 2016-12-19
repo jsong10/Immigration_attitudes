@@ -1,0 +1,222 @@
+---
+title: "Contemporary European Attitudes towards Immigration: The Impact of Safety Threat on Anti-Immigration Attitudes"
+author: "Jungmin Song"
+header-includes:
+    - \usepackage{setspace}\doublespacing
+output: pdf_document
+bibliography: Immigration.bib
+---
+\setlength\parindent{24pt}
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+The migration crisis in recent years poses a serious challenge for European countries. More than one million refugees and migrants entered European countries in 2015, many fleeing wars and instability in the Middle East, such as Syria and Iraq [@Reuters2016]. Since 2011, more than 12 million refugees have been displaced from Syria, according to UN figures [@RT2016].  Now, how to deal with migrants has become the major political issue in European politics. The biggest beneficiaries of this crisis are radical right parties (RRPs) that represent anti-immigration policies. In the 2014 Hungarian Parliamentary election, the Hungarian Civic Union (FIDESZ), which represents xenophobic Hungarian nationalism and anti-immigration sentiments, won 133 out of 199 seats (Carr 2015). Now FIDESZ is leading one of most anti-immigration nations in Europe with its billboards and planned border fence [@Guardian2015]. Similarly, in the 2014 European Union Parliament Election, the Front National (FN), a RRP with anti-EU and anti-immigrant campaigns, became the largest party by winning 23 out of 74 seats [@Russo2014]. Lastly, the Law and Justice Party, a RRP in Poland, won the recent parliamentary election in October 2015, and now there are large concerns that the Law and Justice Party might follow the example of the FIDESZ of Hungary [@Telegraph2015;@Economist2015]. Indeed, a general trend of anti-immigration attitudes is prevalent in European countries now.
+
+This study investigates the causes of the recent rise of anti-immigration attitudes in Europe. Of course, research on anti-immigration attitudes in Europe and the United States is widespread today. However, the bases of these attitudes are still unclear. What makes European citizens support anti-immigration policies, and who are more likely to support them? The most popular explanation for these questions is that the size of the outgroup measured as the proportion of immigrants in a country strengthens anti-immigration attitudes. This explanation is based on group threat theory, which argues that a larger outgroup size residing near respondents increases anti-outgroup attitudes mediated by perceptions of threatened group interests [@Key1949;@Blalock1967;@Blumer1958;@Bobo1999;@Quillian1995]. In spite of the popularity, however, the most critical drawback of this theory is that we do not know much about what kind of threats people actually perceive from the increasing number of immigrants and how it affects anti-outgroup attitudes.
+
+This study will build on previous research on group threat theory and propose a number of refinements. First, this study tests whether group threat theory can be applied to the current rise of anti-immigration attitudes in European countries. Group threat theory has provided a strong theoretical framework for explaining racial-minority hostility and anti-immigrant attitudes, but it not supported by consistent findings [@SchlueterScheepers2010;@Newman2013]. In this sense, testing this theory in the current European context would be a valuable work. Second, this study tests this theory with diverse measures for a more robust test. So far, the most commonly used measures of a outgroup size has been “the relative size of the minority group to the majority group.” However, as @Hopkins2010 pointed out, people might not perceive local demographics well. In this sense, this study will test the theory with “the change in the country’s immigrant density,” which is more likely to be noticed by people. Third and most importantly, the previous research has mostly focused on economic threat that originates from the large outgroup population, and has neglected other potential threats that might lead to anti-outgroup attitudes. However, there can be diverse kinds of threats, such as cultural threat and safety threat. I argue that economic threat cannot fully explain the recent rise of anti-immigration attitudes in Europe, and thus, tests the impact of safety threat on them as the alternative hypothesis.
+
+Group Threat Theory and Social Contact Theory
+---------------------
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Group threat theory argues that as the outgroup density in residential area goes up, people who belong to the in-group will be more likely to perceive the outgroup population as threats and will show negative and hostile attitudes towards them. This theory has been applied to diverse contexts. In the U.S. context, many studies have attempted to explain whites’ attitudes towards blacks and Hispanics by “racial threat theory.” For example, researchers have investigated the impact of high black density in residential area on whites’ racial attitudes. Similarly, in European context and the recent US context, natives’ attitudes towards immigrants have been explained as the function of immigrant density.
+
+Even though group threat theory has proven to be a key approach for explaining anti-outgroup attitudes, empirical evidence that outgroup density increases anti-outgroup attitudes is still inconclusive [@Schneider2008;@SchlueterScheepers2010;@Newman2013]. Some studies have found that hostility towards outgroup (immigrants, racial minorities) and support for anti-outgroup policies are greater among citizens residing in high outgroup density area [@Key1949;@Blalock1967;@Blumer1958;@Bobo1999;@Quillian1995;@GilesBuckner1993;@GilesHertz1994;@Hero1998;@BrantonJones2005;@Hopkins2010]. In the U.S. context of racial politics, the findings of group threat theory are quite consistent. In Louisiana, @GilesBuckner1993 found that the support for David Duke, the former Ku Klux Klan wizard, was higher in residential areas with high black density. Similarly, @GilesHertz1994 found that black density increased the number of Republican-registered voters. Similarly, @BrantonJones2005 found that when their residential areas are surrounded by low socio-economic status neighbors and highly mixed composition of races, whites are more likely to oppose race-conscious policies such as preferential hiring and education quota.
+
+In the context of immigration politics, empirical evidence of group theory is less consistent. Using the percentage of non-European Economic Community (EEC)-citizens in a country as the measure for immigrant density, @Quillian1995 found a positive relationship between immigrant density and anti-immigrant prejudice. With the European Social Survey (ESS) 2002/2003 data, @Schneider2008 also found that the larger the immigrant population with non-western origin, the higher the average immigrant threat perceptions in a country, but this effect was quadratic. In other words, the effects of immigrant density on anti-immigration attitudes started to decrease when the percentage of non-western immigrants becomes larger than 8.3%. @Hopkins2010 found a similar relationship, but not immigrant density but the change in immigrant density between 1990 and 2000 showed a significant effect on local anti-immigrant ordinances. However, there are also a number of studies that found a “negative relationship” between immigration density and anti-immigrant attitudes or no relationship between them [@Fetzer2000;@Fox2004;@HoodMorris1997;@McLaren2003]. Using the 1992 American National Election Studies data, Fetzer (2000) demonstrated that Americans living in U.S. counties with more foreign-born residents were more likely to like immigrants more. Similarly, @McLaren2003 found that proximity to immigrant groups (measured as contact with members of ethnic-minority groups) actually reduced the support for anti-immigration policies.
+
+These findings of a “negative relationship” have been explained by social contact theory [@Allport1954]. Social contact theory argues that actual intergroup contact can alleviate intergroup tensions and unfavorable intergroup attitudes. Through close and sustained contact with members of outgroups, people can get direct information about the values, lifestyle, and experiences of members of outgroups, and this information is likely to be more favorable one for outgroups than that gained through media or other indirect sources [@Ellisonetal2011]. In their meta-analysis of intergroup contact theory with 713 independent samples from 515 studies, @PettigrewTropp2006 found that intergroup contact typically reduces intergroup prejudice. However, the missing link of this argument is that we do not know whether high immigration density leads to favorable intergroup contact between natives and immigrants.
+
+I argue that the main reason of these inconsistent findings regarding the relationship between outgroup density and anti-outgroup attitudes is that high outgroup density can provide opportunities for either favorable or unfavorable contacts. As @Allport1954 pointed out, not all kinds of contacts with outgroups reduce anti-outgroup attitudes. Rather, there are some contact situations that could maximize the potential for contact to reduce anti-outgroup attitudes and promote positive intergroup outcomes. In this sense, the key question that should be answered is whether the current demographic composition – high immigration density – is actually promote those favorable social intergroup contacts. 
+
+In the current situation of migration crisis in European countries, it looks implausible to expect that natives can experience a favorable social contact with immigrants. According to social contact theory, increased contact under certain conditions – e.g., such as interdependence, common goals, and equal status which can be easily found in schools and companies – can reduce anti-outgroup attitudes [@EllisonPowers1994;@KinderMendelberg1995;@McClainetal2006]. But at present, increased contact due to the migration crisis in Europe cannot be classified as a “favorable social contact.” Rather, those contacts are characterized by non-interdependence, non-common goals, and unequal status between natives and immigrants. In this sense, this study predicts that high immigration density will increase anti-immigration attitudes, not decrease them.  
+
+\vspace{0.3in}
+*Hypothesis 1: Higher immigrant density will lead to increased anti-immigration attitudes.*
+\vspace{0.3in}
+
+Causal Mechanisms of Group Threat Theory
+---------
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then, how does the outgroup population density affect anti-outgroup attitudes? In other words, what is the causal mechanism between them? First, the most prominent explanation is material and economic threat. This line of research argues that the impact of the outgroup population density on anti-outgroup attitudes is mediated by perceived economic threat. This explanation is based on the assumption that people are most concerned about the scarcity of resources [@Blalock1967], and outgroup population will be perceived as competitors for those scarce resources. @HainmuellerHopkins2014 classify economic threats from outgroup into two: labor market competition and taxes-transfers competition. Labor market competition argument predicts that an influx of low-skilled immigrants can be perceived as the threat for the job security of native workers [@ScheveSlaughter2001;@Mayda2006]. @EspenshadeHempstead1996 found that the annual U.S. unemployment rate and the fraction of survey respondents who feel that levels of U.S. immigration should be reduced are highly correlated, and @Palmer1996 found the similar finding from Canadian data. In European context, @Quillian1995 argued that people in wealthy countries are less likely to perceive immigrants as group threat because wealthy countries have fewer workers employed in low-skilled occupations. On the other hand, taxes-transfers competition argument predicts that outgroup can be perceived as competitors for welfare benefits and tight government budgets [@Citrinetal1997]. @Hansonetal2007 found that natives with higher incomes living in high fiscal exposure states are less likely to support immigration due to fears about immigration-induced tax hikes. Also, @Hero1998 found that as minority density increases, the level of welfare benefit programs for minorities actually declined because majorities (whites) did not allow the governments to use scarce resources for minorities.
+
+Second, other researchers have argued that the impact of high outgroup density on anti-outgroup attitudes can work through non-economic threat, such as political threat [@Key1949;@GilesHertz1994;@Enos2016] and cultural threat [@Snidermanetal2004;@SidesCitrin2007;@Gonzalezetal2008;@Newman2013]. Political threat argument, which has been often found in the U.S. racial context, suggests that black concentration can be perceived as potential threat to white political hegemony. In the United States, Black voter registration increased dramatically in many states after the 1965 Voting Rights Act [@GilesHertz1994]. This change increased threat to white hegemony over candidate nomination process and office holding. @Key1949 and @GilesHertz1994 found that higher black population density is positively related with higher white voter turnout and higher white voters for conservative candidates. Also, the findings of @Enos2016 showed that low black population density de-mobilized white voters’ participation in the election. On the other hand, cultural threat argument suggests that an influx of outgroups can be perceived as a serious challenge against cultural homogeneity. As a kind of symbolic threats, cultural threat is based on “perceived group differences in values, norms, and beliefs.” [@Gonzalezetal2008] Multiple studies have found that respondents who have a strong in-group identity are more likely to have negative feelings towards immigrants [@Citrinetal1990;@SidesCitrin2007;@Gonzalezetal2008]. @Snidermanetal2004 found that culturally threatening cues are more influential than economic cues on opposition to immigration through experimental analysis. Also, linking cultural threat argument with residential contexts, @Newman2013 found that an over-time growth of the immigrant population will be perceived as cultural threat only in a residential context with ethnic homogeneity (in other words, the preexisting size of an immigrant group is small), and residing in this resident context will increase support for restrictive immigration policy.
+
+Even though the studies reviewed above have accumulated valuable findings based on group threat theory, at present, a critical omission in group threat theory is the lack of attention towards “safety threat.” In the following chapter, I will suggest why safety threat is more appropriate for explaining the recent rise of anti-immigration attitudes.
+
+Safety Threat and Anti-Immigration Attitudes
+-------
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Safety threat has become prevalent among natives since the 9/11 terrorist attacks. Compared to economic and cultural threat, terrorist attacks pose more serious threat to natives because they directly threaten the lives and the personal safety of natives. Due to the ethnic proximity between immigrants and terrorists, immigrants have become the target of blame for terrorist acts, even though refugees themselves are running from terrorist attacks in Middle Eastern countries [@NYT2016a]. Moreover, conflating refugees with terrorism, radical right parties in Europe, such as the Alternative for Germany Party, are demanding more strict controls on immigration [@NYT2016b;@Dailymail2016].
+
+At present, however, people link immigrants not only with terrorism but also with crimes that occur in their residential areas. Even though multiple studies have confirmed that immigrants are less likely to commit serious crimes and high rates of immigration are associated with lower rates of violent crime and property crime, immigrants are being criminalized and anti-immigration policies are getting more support from the public [@Ewingetal2015]. Especially in Europe, the prejudice toward immigrants is strengthened due to a number of crimes committed by some asylum seekers. For example, in Cologne, Germany, scores of young women were groped and robbed on New Year’s Eve by gangs of men having “a North African or Arabic” appearance [@NYT2016b]. After the sexual attacks, far-right protestors organized an “anti-Islamization” demonstration and the public support for helping Muslim refugees also dwindled.
+
+Safety threat hypothesis suggests that larger immigrant populations will be translated into anti-immigration policy support via the perception of safety threat from immigration. Then, when can larger immigration populations be perceived as safety threat? This study argues that this perception will be affected by the crime rates of their residential areas. What previous research has found is that high crime rates can increase the fear towards outgroups such as immigrants and racial minorities even if those crimes are not caused or even aggravated by outgroups [@Liskaetal1982;@Ewingetal2015]. In other words, as natives attribute their economic hardship to the influx of immigrants regardless of the real cause of economic hardship, natives are more likely to blame the increasing number of immigrants for high crime rates regardless of who actually commits more crimes. This assumption is supported by multiple studies: @Liskaetal1982 found that that as the percentage of non-whites increases, whites were more fearful for crimes; @KingWheelock2007 found that punitive attitudes of white respondents are strongly associated with the size of the black population. From this reasoning, I suggest the following hypothesis with respect to safety threat:
+
+\vspace{0.3in}
+*Hypothesis 2: As crime rates of a country increase, the higher immigrant density should lead to increased anti-immigration attitudes. Also, this contextual effect will still remain even when I control the effect of economic threat.*
+\vspace{0.3in}
+
+Data and Methods
+--------------
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The data used for this analysis come from two different sources. First, for the individual-level data, the 2014 European Election Study (EES) Voter Study for the 2014 EU Parliament Election conducted in 28 EU member countries is used. As a Comparative Opinion Survey (COS) that has become the essential research data in contemporary comparative politics, the EES data enables us to generalize a finding in a single country to different contexts of other countries because all countries included in the data share the same format of questionnaires. The EES data for all countries provide a large enough sample size, at least 1,000, which is sufficient to test multi-level hypotheses that investigate the impact of aggregate-level contextual variables on the individual-level voting behavior. Moreover, the 2014 EU Parliament Election data help us to eradicate the difference across countries due to different election times because all countries had the EU Parliament Elections in the same year.
+
+Second, for the country-level data, this paper uses the data from the Eurostat Database, the official database of the European Union for statistics regarding EU member countries. As a credible data source governed by the EU, the Eurostat Database provides a wide range of national-level data including basic economic indicators, immigrants, income inequality, and other social environment variables. By using the “matching” command that connects two different datasets with a shared variable (for this case, I used “countrycode” variable) in Stata, the statistical package I used in this paper, I combined these datasets.
+
+The dependent variable of this study is anti-immigration attitudes. To be specific, this variable is a continuous variable, which ranges from 1 to 11. I used the question asking, “Are you in favor of (or opposed to) a restrictive policy on immigration (1 – 11 point range).” Higher values indicate higher support for a restrictive immigration policy, in other words, stronger anti-immigration attitudes. 
+The key independent variables of this analysis are immigrant density and crime rates of a country in 2014, the election year. Following previous studies, immigration density is measured as the proportion of non-national population among total population. According to Eurostat, non-nationals are “people who are not citizens of the country in which they currently reside.” For better interpretation, I rescaled the original variable by multiplying 100. Also, for the robustness of findings, I will test the hypothesis with the different measure of immigrant density, too. Following @Hopkins2010, I will employ “the change in the country’s immigrant density between 2008 and 2014” to test whether over-time growth in immigrant population, rather than the size of immigration population, is a more powerful predictor for anti-immigration attitudes. Crime rates are measured by the percentage of total population who has experienced “Crime, Violence or Vandalism in the area.”
+
+Control variables of other competing hypotheses are also included. If the impact of safety threat is still significant even after I control the effects of competing hypotheses, it will indicate the robustness of my findings. The key control variable is the unemployment rate, which is included to control the impact of economic threat. For other individual-level controls, redistributive preferences is employed as a proxy of political ideology. The question asking “Are you fully in favor of (or opposed to) the redistribution of wealth from the rich to the poor (1-11 point range)” is used to measure this variable. Higher values indicate higher opposition for the redistribution of wealth. Other control variables, age, education (5-categories), employment status (0 = employed, 1 = unemployed), and income (10-categories) are included in the models. Even though there have been some findings that voters with low-socio-economic-status (SES) – low income, less-educated, and unemployed - are more likely to show the strong anti-immigrant attitudes, empirical evidence is still inconclusive. In this sense, I will include these variables in the models and test whether the traditional assumption about the affinity of low-SES voters toward anti-immigration attitudes can be applied to the recent context of European politics, too. Descriptive statistics for the dependent variable and all independent variables are summarized in the Appendix.
+
+To test the hypotheses, this study employs the multilevel mixed-effects linear regression model with interaction terms. First, given the continuous characteristic of the dependent variable, the linear regression model is appropriate. Second, the characteristic of this dataset, the combined dataset with both individual-level data and country-level data should be considered. If I run a simple ordinary least square model for this dataset, it violates the basic assumption of the linear regression model (e.g., statistical independence of the errors, homoskedasticity) because observations are actually clustered by nations in the dataset. Observations that belong to the same nation will share similar characteristics, and it will lead to underestimation of standard errors. Third, including interaction terms in equations enables me to test the conditional effects of the immigrant density on anti-immigrant attitudes depending on the country-level unemployment rates and crime rates. I will start with testing the independent effects of these variables on anti-immigrant attitudes without interaction terms first, and then will test conditional effects with interaction terms.
+
+Results
+-----
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Table 1 lists the results for the models without interaction terms: the results provide a moderate support for group threat theory rather than social contact theory. The results in the first column demonstrate that respondents residing in a country with high immigrant density are more likely to have anti-immigrant attitudes. The coefficient of Model 1 indicates that every ten unit increase of immigrant density will lead to 0.27 point increase in anti-immigration attitudes, holding all other variables constant. Even though the amount of effect is not large, but the effect of immigrant density is statistically significant at th. This result shows that high immigrant density did not result in the increase of social contact but the increase of group threat.
+
+To achieve more robust results, I tested the same hypothesis with the other measure of immigrant density: immigrant density change between 2008 and 2014. Hopkins (2014) argued that people are more likely to perceive “changes” in demographics well. However, the effect of this variable on anti-immigrant attitudes is not statistically significant, as we can see in Model 2 (p=0.410). Also, the impact of immigrant density is not statistically significant anymore after I included the change variable as a control variable (p=0.139). In sum, immigrant density is just showing moderate, inconsistent effect on anti-immigration attitudes.
+
+From Model 1 to 3, both crime rates and unemployement rates did not show statistically significant impact on anti-immigration attitudes. These results indicate that crime rates and unemployment rates can matter for anti-immigration attitudes only if they are related to immigrant density in each country. Some control variables showed statistically significant effects. Younger, less educated, and low income respondents are more likely to have anti-immigration attitudes. The positive relationships between low-income/low-education and anti-immigration attitudes are consistent with previous findings regarding anti-immigrant attitudes. Previous findings have interpreted these results as evidence for economic threat, because low-income and low-education workers are more likely to experience the competition with immigrants in labor markets. One other interesting finding is progressive respondents are more likely to have anti-immigration attitudes (p<0.001).
+
+Table 2 lists the results for the models with interaction terms. The results look like they provide a strong support for the economic threat hypothesis and no support for the safety threat hypothesis, if we just focus on the p-values of interaction terms. However, as @Bramboretal2006 indicated, the coefficients of interaction terms are not interpretable from this table; instead, to understand the conditional effects of variables, they must be calcualted and plotted. Using the R Package "Interplot [@SoltHu2016]", I plotted the changes in the coefficient of immigrant density conditional on the values of unemployment rates and crime rates.
+
+Figure 1 is generated from model 4 that includes the interaction term "unemployment rates X immigrant density". The results provide a strong support for the economic threat hypothesis: as unemployment rates of a country increase, higher immigrant density led to increased anti-immigration attitudes. To be specific, when unemployment rates are at zero, an increase in immigrant density has actually no significant effect on anti-immigrant attitudes. But when unemployment rates are at 20, the coefficient of immigrant density on anti-immigration attitudes increases to 0.2. 
+
+Next, Figure 2 shows the moderate support for the safety threat hypothesis. The estimated conditional effect of immigrant density is statistically significant at the 90% confidence interval when crime rates are higher than 13. Among countries with low crime rates, the estimates of coefficients do not reach statistical significance. In the range of high crime rates, the increase of immigrant density strengthens anti-immigrant attitudes. However, even in high crime rates, the estimates reach statistical significance only if I apply the 90% confidence interval. In this sense, I conclude that the safety threat hypothesis is "moderately" supported.
+
+
+Conclusion and Discussion
+--------------
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building on previous research on group threat theory, this study found that group threat theory is more appropriate for explaining the current anti-immigration attitudes of European countries than social contact theory. Also, this study found another important causal mechanism between outgroup density and anti-outgroup attitudes, which has been neglected in previous studies: safety threat. Of course, it is not certain that safety threat hypothesis can be applicable to other geographical contexts and other periods. But in the current context of migration crisis in Europe and frequent occurrences of terrorist attacks, safety threat hypothesis is working as a core causal mechanism that boosts anti-immigration attitudes.
+A recommended direction for future research would be to use lower-level data rather than the current country-level data. Group threat theory assumes that “residential contexts of respondents” can have a strong effect on forming attitudes toward outgroups. But residential contexts can be diverse even within a country: a respondent in a city might reside in high immigrant density residential contexts, but other respondents in rural areas might not have chances to meet immigrants. In this sense, research focusing on a single country with more detailed local data will illuminate a much clearer picture of group threat and anti-immigrant attitudes.
+Another direction would be a time-series analysis. For example, a question like “Does safety threat hypothesis work in 1990s and 2000s, too?” might result in another valuable work. Through the time-series analysis, I expect that I can reveal how anti-immigration attitudes have changed according to changes in residential context. For the future research, pooling multiple surveys of European countries would be definitely needed.
+
+
+\newpage
+```{r include = FALSE}
+library(gesis)
+library(rio)
+library(dplyr)
+library(tidyverse)
+library(rvest)
+library(stringr)
+library(lubridate)
+
+# get the 2014 European Election Study data from GESIS
+# I could not find the way to get the Eurostat data for my interested variables. For this paper, I entered the values on the excel file and converted them to the stata file. I will updata this part later.
+
+# js <- login(username = getOption("gesis_user"), password = getOption("gesis_pass"))
+# download_dataset(s = js, 
+#                  doi = "5160", 
+#                  path = ".",
+#                  purpose = 1, filetype = ".dta") # "1. for scientific research"
+
+# download_codebook(doi = "5160", 
+#                   path = ".")
+
+# because Rio package cannot read a Stata13 file (I could not solve this problem, too), so I saved it as stata old version in Stata and reloaded.
+EES_original <- import("ZA5160_v4-0-0 (old).dta")
+Eurostat <- import("eurostat.dta")
+
+# rescaling and recoding of Eurostat data
+
+Eurostat$Immigrant_Density2014 <- 100 * Eurostat$Immigrant_Density2014
+Eurostat$Immigrant_Density2008 <- 100 * Eurostat$Immigrant_Density2008
+Eurostat$Immigrant_Density_Change <- Eurostat$Immigrant_Density2014 - Eurostat$Immigrant_Density2008
+
+# merging data
+
+EES <- left_join(EES_original, Eurostat, by = "countrycode")
+
+# recoding
+# DV
+EES$Anti_Immigration_attitudes <- ifelse(EES$qpp17_6 == 1, 11, ifelse(EES$qpp17_6==2, 10, ifelse(EES$qpp17_6==3, 9, ifelse(EES$qpp17_6==4, 8, ifelse(EES$qpp17_6==5, 7, ifelse(EES$qpp17_6==6, 6, ifelse(EES$qpp17_6==7, 5, ifelse(EES$qpp17_6==8, 4, ifelse(EES$qpp17_6==9, 3, ifelse(EES$qpp17_6==10, 2, ifelse(EES$qpp17_6==11, 1, ifelse(EES$qpp17_6==-9, 6, ifelse(EES$qpp17_6==-8, 6, NA)))))))))))))
+
+# Key Independent Variables
+EES$euro_scepticism <- ifelse(EES$qp7==1, 1, ifelse(EES$qp7==3, 2, ifelse(EES$qp7==-9, 2, ifelse(EES$qp7==2, 3, NA))))
+EES$restrict_civil_liberty <- ifelse(EES$qpp17_5==-9, 6, ifelse(EES$qpp17_5==-8, 6, EES$qpp17_5))
+EES$oppose_redistribution <- ifelse(EES$qpp17_2==-9, 6, ifelse(EES$qpp17_2==-8, 6, EES$qpp17_2))
+EES$negative_econ_eval <- ifelse(EES$qpp15==-9, 3, EES$qpp15)
+
+# Control Variables : Gender, Age, Education, Income, Employment, Occupation
+
+EES$male <- ifelse(EES$d10==1, 1, ifelse(EES$d10==2, 0, NA))
+EES$age <- EES$vd11
+EES$education <- ifelse(EES$d8==-9, 2, ifelse(EES$d8==-8, 2, EES$d8))
+EES$unemployed <- ifelse(EES$c14<=5, 0, ifelse(EES$c14==6, 1, ifelse(EES$c14>6, 0, NA)))
+EES$size_of_town <- ifelse(EES$d25==-9, NA, EES$d25)
+EES$occupation_managers <- ifelse(EES$c14==2, 1, ifelse(EES$c14==1, 0, ifelse(EES$c14>2, 0, NA)))
+EES$occupation_whitecollars <- ifelse(EES$c14==3, 1, ifelse(EES$c14<3, 0, ifelse(EES$c14>3, 0, NA)))
+
+# Multiple Imputation for income variable
+
+# install.packages("mice")
+library(mice)
+
+# d61 = imcome
+
+EES_impute <- data.frame("age" = EES$age, "edu" = EES$edu, "male" = EES$male, "unemployed" = EES$unemployed, "managers" = EES$occupation_managers, "whitecollars" = EES$occupation_whitecollars, "original_income" = EES$d61)
+EES_impute$original_income <- ifelse(EES_impute$original_income==-8, NA, EES_impute$original_income)
+EES_imputed <- mice(EES_impute, m=5, method = 'pmm')
+complete_Data <- complete(EES_imputed)
+EES$income <- complete_Data$original_income
+
+# Model
+library(lme4)
+
+m1 <- lmer(Anti_Immigration_attitudes ~ Immigrant_Density2014 + Unemployment + Crime + age + education + unemployed + income + oppose_redistribution + (1 | countrycode), EES) 
+
+m2 <- lmer(Anti_Immigration_attitudes ~ Immigrant_Density_Change + Unemployment + Crime + age + education + unemployed + income + oppose_redistribution + (1 | countrycode), EES) 
+
+m3 <- lmer(Anti_Immigration_attitudes ~ Immigrant_Density2014 + Immigrant_Density_Change + Unemployment + Crime + age + education + unemployed + income + oppose_redistribution + (1 | countrycode), EES) 
+
+m4 <- lmer(Anti_Immigration_attitudes ~ Immigrant_Density2014*Unemployment + Immigrant_Density2014 + Unemployment + Crime + age + education + unemployed + income + oppose_redistribution + (1 | countrycode), EES)
+
+m5 <- lmer(Anti_Immigration_attitudes ~ Immigrant_Density2014*Crime + Immigrant_Density2014 + Unemployment + Crime + age + education + unemployed + income + oppose_redistribution + (1 | countrycode), EES)
+
+m6 <- lmer(Anti_Immigration_attitudes ~ Immigrant_Density2014*Unemployment + Immigrant_Density2014*Crime + Immigrant_Density2014 + Unemployment + Crime + age + education + unemployed + income + oppose_redistribution + (1 | countrycode), EES)
+
+library(stargazer)
+library(interplot)
+```
+
+
+```{r, echo = FALSE}
+# I don't know why stargazer command with "type = "latex"" causes errors. 
+stargazer(m1, m2, m3, type = "text", title="Table 1. Immigrant Density and Anti-Immigrant Attitudes", report = "vcsp*", model.numbers = FALSE, column.labels = c("Model 1", "Model 2", "Model 3"))
+```
+\newpage
+```{r, echo = FALSE}
+stargazer(m4, m5, type = "text", title="Table 2. Conditional Effects of Immigrant Density on Anti-Immigrant Attitudes", report = "vcsp*", model.numbers = FALSE, column.labels = c("Model 4", "Model 5"))
+```
+\newpage
+
+```{r plot, echo=FALSE}
+interplot(m = m4, var1 = "Immigrant_Density2014", var2 = "Unemployment", ci = .9) +
+  xlab("Unemployment Rates") +
+  ylab("Estimated Coefficient for \nImmigrant Density in 2014") +
+  ggtitle("Figure 1. Conditional Effects of Immigrant Density \non Anti-Immigration Attitudes by Unemployment Rates (90% CI)") +
+  geom_hline(yintercept = 0, linetype = "dashed")
+```
+\newpage
+```{r plot2, echo=FALSE}
+interplot(m = m5, var1 = "Immigrant_Density2014", var2 = "Crime", ci = .9) +
+  xlab("Crime Rates (the percentage of total population \nwho has experienced crime, violence, or vandalism in the area)") +
+  ylab("Estimated Coefficient for \nImmigrant Density in 2014") +
+  ggtitle("Figure 2. Conditional Effects of Immigrant Density \non Anti-Immigration Attitudes by Crime Rates (90% CI)") +
+  geom_hline(yintercept = 0, linetype = "dashed")
+```
+
+\newpage
+
+References 
+-----------
+&nbsp;&nbsp;&nbsp;
